@@ -63,12 +63,11 @@
     "predoc": "rimraf doc",
     "doc": "esdoc -c ./esdoc.json",
     "postdoc": "git add -A && git commit -am \"docs\"",
-    "prerelease": "npm run build",
+    "prerelease": "npm run build && npm run doc",
     "release": "npm version patch && npm publish",
     "postrelease": "npm run release-doc",
-    "prerelease-doc": "npm run doc",
     "release-doc": "git subtree push --prefix doc origin gh-pages",
-    "postrelease-doc": "git commit -am \"doc-release\" && git push --follow-tags",
+    "postrelease-doc": "git push --follow-tags",
     "upgrade": "ncu -a && npm update"
   }
 }
