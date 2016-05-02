@@ -6,9 +6,9 @@ window.esdocSearchIndex = [
     "variable"
   ],
   [
-    "serve-file/lib/index.js~servefile",
+    "serve-file~servefile",
     "function/index.html#static-function-serveFile",
-    "<span>serveFile</span> <span class=\"search-result-import-path\">serve-file/lib/index.js</span>",
+    "<span>serveFile</span> <span class=\"search-result-import-path\">serve-file</span>",
     "function"
   ],
   [
