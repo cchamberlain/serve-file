@@ -1,7 +1,7 @@
 {
   "name": "serve-file",
   "description": "express sendFile logic refactored as a thunk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Cole Chamberlain <cole.chamberlain@gmail.com>",
   "contributors": [
     "TJ Holowaychuk <tj@vision-media.ca>",
